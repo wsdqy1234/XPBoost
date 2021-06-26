@@ -1,6 +1,6 @@
 # XPBoost
-This is the implementation of the paper 'eXtreme Performance Boosting: Revisiting Statistics and Intelligent Optimization in Deep Learning'. We reproduce 8 strong baselines in time-series analysis, including the FCNs, RNNs (LSTM, GRU, LSTNet), CNNs \cite{TCN, WaveNet}, GNNs (GraphWaveNet) and attention models (TPA-LSTM). All the APIs are unified.
-## As Time-series Toolkit
+This is the implementation of the paper 'eXtreme Performance Boosting: Revisiting Statistics and Intelligent Optimization in Deep Learning'. We reproduce strong baselines in time-series analysis, including the FCNs, RNNs (LSTM, GRU, LSTNet), CNNs \cite{TCN, WaveNet}, GNNs (GraphWaveNet) and attention models (TPA-LSTM). All the APIs are unified.
+## As a Time-series Toolkit
 XPBoost is a Easy-to-use, Modular and Extendible package of deep-learning based time-series models. You can use any complex model with model.fit()，and model.predict(). Facing a new scene, you can adapt the model with following steps:
 - Define the task in the DataLoader object in the utils.py. The dominant problems in time-series, such as the monitoring, classification and forecasting, can be formulated via the dataloader definition.
 - Select the model provided in the 'model' directory, or define a new model following the APIs in the provided models.
@@ -19,7 +19,7 @@ So far the following networks are supported :
 | GraphWaveNet  | [Graph wavenet for deep spatial-temporal graph modeling](https://arxiv.org/abs/1906.00121) |
 | TPALSTM  | [Temporal pattern attention for multivariate time series forecasting](https://arxiv.org/abs/1809.04206) |
 
-## As Performance Booster
+## As a Performance Booster
 Further, XPBoost provides a method to boost the performance of deep learning models. Conduct it following the steps as:
 
 - Train the deep learning models using the scripts provided as before.
